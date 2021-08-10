@@ -23,7 +23,7 @@ https://camo.githubusercontent.com/8e495d8dc7c050cf85a83d027639f0ca74938abe3b1fd
 https://camo.githubusercontent.com/8e495d8dc7c050cf85a83d027639f0ca74938abe3b1fd30117ae1bb7700b5e6b/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d617072336e64693526636f6c6f723d303030303031"""
 
 contador = 0
-while (contador) <= 100:
+while (contador) <= 100: #Quantas vezes ele vai repetir "websites ="
     contador = contador + 1
     print(contador)
     async def get(url):
